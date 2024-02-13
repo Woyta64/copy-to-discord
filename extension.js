@@ -8,8 +8,9 @@ function activate(context) {
 			const selection = editor.selection;
 			const text = document.getText(selection);
 			const language = document.languageId;
+			const gravis = "```";
 
-			vscode.env.clipboard.writeText("```" + language + "\n" + text + "\n```");
+			vscode.env.clipboard.writeText(`${gravis}${language}\n${text}\n${gravis}`);
 		}
 	});
 
