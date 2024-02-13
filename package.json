@@ -9,6 +9,10 @@
   "categories": [
     "Other"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Woyta64/copy-to-discord"
+  },
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
