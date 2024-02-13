@@ -2,13 +2,15 @@
   "name": "copy-to-discord",
   "displayName": "Copy to Discord",
   "description": "Copy code snippets in Markdown format with language identifier using a simple keybinding. Ideal for sharing code snippets in technical documentation, tutorials, or Discord.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.86.0"
   },
   "categories": [
     "Other"
   ],
+  "icon": "icon.jpg",
+  "publisher": "Woyta",
   "repository": {
     "type": "git",
     "url": "https://github.com/Woyta64/copy-to-discord"
