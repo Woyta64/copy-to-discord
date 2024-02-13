@@ -1,7 +1,7 @@
 const vscode = require('vscode');
 
 function activate(context) {
-	let disposable = vscode.commands.registerCommand('extension.copyToDiscord', function () {
+	let disposable = vscode.commands.registerCommand('copy-to-discord.copyToDiscord', function () {
 		const editor = vscode.window.activeTextEditor;
 		if (editor) {
 			const document = editor.document;

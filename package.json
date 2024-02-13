@@ -1,7 +1,7 @@
 {
   "name": "copy-to-discord",
   "displayName": "Copy to Discord",
-  "description": "todo",
+  "description": "",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.86.0"
@@ -12,10 +12,20 @@
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "copy-to-discord.helloWorld",
-      "title": "Hello World"
-    }]
+    "commands": [
+      {
+        "command": "copy-to-discord.copyToDiscord",
+        "title": "Copy to Discord"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "copy-to-discord.copyToDiscord",
+        "key": "ctrl+alt+c",
+        "mac": "cmd+alt+c",
+        "when": "editorTextFocus"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",
