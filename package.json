@@ -2,9 +2,9 @@
   "name": "copy-to-discord",
   "displayName": "Copy to Discord",
   "description": "Copy code snippets in Markdown format with language identifier using a simple keybinding. Ideal for sharing code snippets in technical documentation, tutorials, or Discord.",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "engines": {
-    "vscode": "^1.86.0"
+    "vscode": "^1.30.0"
   },
   "categories": [
     "Other"
@@ -39,12 +39,12 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.86.0",
     "@types/mocha": "^10.0.6",
     "@types/node": "18.x",
-    "eslint": "^8.56.0",
-    "typescript": "^5.3.3",
+    "@types/vscode": "^1.30.0",
     "@vscode/test-cli": "^0.0.4",
-    "@vscode/test-electron": "^2.3.9"
+    "@vscode/test-electron": "^2.3.9",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
   }
 }
